@@ -72,7 +72,22 @@ a .icon {
     transition: background 500ms;
 }
 
-
+form {
+    color:#f498b8;
+    font-size: 1.125rem; 
+    font-weight: 200;
+}
+.btn-pink {
+    background: #f498b8;
+    color: white;
+    border: 2px solid #f498b8;
+    
+}
+.btn-pink:hover {
+    background: white;
+    border: 2px solid #f498b8;
+    color:#ea1c2c;
+}
 /*change the font size to be smaller at the smaller screen size */
 @media (max-width: 1200px) {
     #headingGroup h1 {
