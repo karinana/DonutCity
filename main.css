@@ -2,6 +2,8 @@ body {
     background: #f5d9df;
     font-family: 'Nunito', sans-serif;
 }
+
+
 h2 {
     font-weight: 200;
 }
@@ -53,13 +55,14 @@ a .icon {
 #mainNavbar .nav-link:hover {
     color: #ea1c2c;
 }
-/*selecting the class navabr-brand that is inside the id mainNavbar*/
+
 #mainNavbar .navbar-brand {
     color: #ea1c2c;
     font-size: 1.5rem;
 }
 #headingGroup span {
     color: #ea1c2c;
+    
 }
 
 #headingGroup h1 {
@@ -87,6 +90,44 @@ form {
     background: white;
     border: 2px solid #f498b8;
     color:#ea1c2c;
+}
+
+footer {
+    color: #f498b8;
+    font-weight: 200;
+    font-size: 1.125rem;
+    
+}
+#mainFooter .footer-link {
+    color: white;
+    text-decoration: none;
+}
+#mainFooter .footer-link:hover {
+    color: #ea1c2c;
+}
+.nav > li{
+    padding-left:20px;
+    padding-right:20px;
+  }
+  
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #f498b8;
+    opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #f498b8;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: #f498b8;
+}
+.form-control {
+  background-color: #f5d9df;
+  border-color: #ea1c2c;
+  border-radius: 5px;
+
 }
 /*change the font size to be smaller at the smaller screen size */
 @media (max-width: 1200px) {
